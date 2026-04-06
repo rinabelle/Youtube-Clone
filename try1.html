@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Youtube clone</title>
-  <link rel="stylesheet" href="css/try1.css">
+  <link rel="stylesheet" href="try1.css">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
@@ -12,7 +12,7 @@
   <header class="vid-flexbox">
     <div class="left-section">
       <button class="menu">
-        <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit; width: 100%; height: 100%;"><path d="M20 5H4a1 1 0 000 2h16a1 1 0 100-2Zm0 6H4a1 1 0 000 2h16a1 1 0 000-2Zm0 6H4a1 1 0 000 2h16a1 1 0 000-2Z"></path></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true"><path d="M20 5H4a1 1 0 000 2h16a1 1 0 100-2Zm0 6H4a1 1 0 000 2h16a1 1 0 000-2Zm0 6H4a1 1 0 000 2h16a1 1 0 000-2Z"></path></svg>
       </button>
       
       <div class="youtube-logo">
@@ -43,7 +43,7 @@
       </div>
 
       <button class="mic-icon">
-        <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit; width: 100%; height: 100%;"><path d="M18.063 14.5a1 1 0 111.73 1A8.998 8.998 0 0113 19.942V22a1 1 0 11-2 0v-2.058A8.999 8.999 0 014.206 15.5l.866-.5.865-.5a7.002 7.002 0 0012.125 0ZM12 1a5 5 0 015 5v5a5 5 0 01-10 0V6a5 5 0 015-5ZM4.572 14.134a1 1 0 011.365.366l-1.731 1a1 1 0 01.366-1.366ZM12 3a3 3 0 00-3 3v5a3 3 0 106 0V6a3 3 0 00-3-3Z"></path></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true"><path d="M18.063 14.5a1 1 0 111.73 1A8.998 8.998 0 0113 19.942V22a1 1 0 11-2 0v-2.058A8.999 8.999 0 014.206 15.5l.866-.5.865-.5a7.002 7.002 0 0012.125 0ZM12 1a5 5 0 015 5v5a5 5 0 01-10 0V6a5 5 0 015-5ZM4.572 14.134a1 1 0 011.365.366l-1.731 1a1 1 0 01.366-1.366ZM12 3a3 3 0 00-3 3v5a3 3 0 106 0V6a3 3 0 00-3-3Z"></path></svg>
       </button>
     </div>
 
@@ -94,26 +94,32 @@
     </div>
   </header>
 
-  <section class="vid-grid">
+  <main class="vid-grid">
       <article class="vid-preview">
         <div class="vid-card">
-          <img class="picture" src="picture/hq720.avif" alt="Video Thumbnail">
+          <a href="https://youtu.be/NwhmuzT1C-o?si=WNlE4nDXPyc9sP62" target="_self">
+            <img class="picture" src="picture/hq720.avif" alt="Video Thumbnail">
+          </a>
         </div>
 
         <div class="vid-container">
           <div class="vid-profile">
-            <img class="profile" src="profile/channels4_profile.jpg" alt="Ray William Johnson">
+            <a href="https://www.youtube.com/@RayWilliamJohnson" target="_self">
+              <img class="profile" src="profile/channels4_profile.jpg" alt="Ray William Johnson">
+            </a>
           </div>
 
           <div class="vid-info">
             <h3 class="vid-title">He Killed His Tinder Date</h3>
-                
-            <p class="vid-owner">
-              Ray William Johnson
-              <span class="badge">
-                <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit; width: 100%; height: 100%;"><path d="M12 1C5.925 1 1 5.925 1 12s4.925 11 11 11 11-4.925 11-11S18.075 1 12 1Zm5.707 7.293a1 1 0 010 1.414L10 17.414l-3.707-3.707a1 1 0 111.414-1.414L10 14.586l6.293-6.293a1 1 0 011.414 0Z"></path></svg>
-              </span>
-            </p>
+          
+            <a href="https://www.youtube.com/@RayWilliamJohnson" target="_self" class="owner">
+              <p class="vid-owner">
+                Ray William Johnson
+                <span class="badge">
+                  <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit; width: 100%; height: 100%;"><path d="M12 1C5.925 1 1 5.925 1 12s4.925 11 11 11 11-4.925 11-11S18.075 1 12 1Zm5.707 7.293a1 1 0 010 1.414L10 17.414l-3.707-3.707a1 1 0 111.414-1.414L10 14.586l6.293-6.293a1 1 0 011.414 0Z"></path></svg>
+                </span>
+              </p>
+            </a>
 
             <p class="vid-stats">91K views &#183; 10 hours ago</p>
           </div>
@@ -130,23 +136,29 @@
     <!------------------------------------------------------------------------------->
       <article class="vid-preview">
         <div class="vid-card">
-          <img class="picture" src="picture/hq721.avif" alt="Video Thumbnail">
+          <a href="https://youtu.be/mn9fCKO0K3w?si=dSSftF_TgjHoG4-c" target="_self">
+            <img class="picture" src="picture/hq721.avif" alt="Video Thumbnail">
+          </a>
         </div>
 
         <div class="vid-container">
           <div class="vid-profile">
-            <img class="profile" src="profile/channels5_profile.jpg" alt="CARV">
+            <a href="https://www.youtube.com/@carv.m4a" target="_self">
+              <img class="profile" src="profile/channels5_profile.jpg" alt="CARV">
+            </a>
           </div>
 
           <div class="vid-info">
             <h3 class="vid-title">Hell Hole</h3>
-                
-            <p class="vid-owner">
-              CARV
-              <span class="badge">
-                <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit; width: 100%; height: 100%;"><path d="M9.03 2.242 8.272 3H7.2A4.2 4.2 0 003 7.2v1.072l-.758.758a4.2 4.2 0 000 5.94l.758.758V16.8A4.2 4.2 0 007.2 21h1.072l.758.758a4.2 4.2 0 005.94 0l.758-.758H16.8a4.2 4.2 0 004.2-4.2v-1.072l.758-.758a4.2 4.2 0 000-5.94L21 8.272V7.2A4.2 4.2 0 0016.8 3h-1.072l-.758-.758a4.2 4.2 0 00-5.94 0Zm7.73 6.638a.5.5 0 01.241.427v1.743a.256.256 0 01-.386.219L14.001 9.7v4.55a2.75 2.75 0 11-2-2.646V6.888a.5.5 0 01.759-.428l4 2.42Z"></path></svg>
-              </span>
-            </p>
+             
+            <a href="https://www.youtube.com/@carv.m4a" class="owner" target="_self">
+              <p class="vid-owner">
+                CARV
+                <span class="badge">
+                  <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit; width: 100%; height: 100%;"><path d="M9.03 2.242 8.272 3H7.2A4.2 4.2 0 003 7.2v1.072l-.758.758a4.2 4.2 0 000 5.94l.758.758V16.8A4.2 4.2 0 007.2 21h1.072l.758.758a4.2 4.2 0 005.94 0l.758-.758H16.8a4.2 4.2 0 004.2-4.2v-1.072l.758-.758a4.2 4.2 0 000-5.94L21 8.272V7.2A4.2 4.2 0 0016.8 3h-1.072l-.758-.758a4.2 4.2 0 00-5.94 0Zm7.73 6.638a.5.5 0 01.241.427v1.743a.256.256 0 01-.386.219L14.001 9.7v4.55a2.75 2.75 0 11-2-2.646V6.888a.5.5 0 01.759-.428l4 2.42Z"></path></svg>
+                </span>
+              </p>
+            </a>
 
             <p class="vid-stats">1.5M views &#183; 6 months ago</p>
           </div>
@@ -164,23 +176,30 @@
 
       <article class="vid-preview">
         <div class="vid-card">
-          <img class="picture" src="picture/hq722.avif" alt="Video Thumbnail">
+          <a href="https://youtu.be/DqWLnlO0JiE?si=WU8luRqJFkaTdvid" target="_self">
+            <img class="picture" src="picture/hq722.avif" alt="Video Thumbnail">
+          </a>
         </div>
 
         <div class="vid-container">
           <div class="vid-profile">
-            <img class="profile" src="profile/channels6_profile.jpg" alt="Ani-One Philippines">
+            <a href="https://www.youtube.com/@AniOnePhilippines" target="_self">
+              <img class="profile" src="profile/channels6_profile.jpg" alt="Ani-One Philippines">
+            </a>
           </div>
 
           <div class="vid-info">
             <h3 class="vid-title">Kaya-chan Isn't Scary | Episode #12 (En Sub/ JP Dup)【Ani-One Philippines】</h3>
-                
-            <p class="vid-owner">
-              Ani-One Philippines
-              <span class="badge">
-                <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit; width: 100%; height: 100%;"><path d="M12 1C5.925 1 1 5.925 1 12s4.925 11 11 11 11-4.925 11-11S18.075 1 12 1Zm5.707 7.293a1 1 0 010 1.414L10 17.414l-3.707-3.707a1 1 0 111.414-1.414L10 14.586l6.293-6.293a1 1 0 011.414 0Z"></path></svg>
-              </span>
-            </p>
+            
+            <a href="https://www.youtube.com/@AniOnePhilippines" class="owner" target="_self">
+              <p class="vid-owner">
+                Ani-One Philippines
+                <span class="badge">
+                  <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit; width: 100%; height: 100%;"><path d="M12 1C5.925 1 1 5.925 1 12s4.925 11 11 11 11-4.925 11-11S18.075 1 12 1Zm5.707 7.293a1 1 0 010 1.414L10 17.414l-3.707-3.707a1 1 0 111.414-1.414L10 14.586l6.293-6.293a1 1 0 011.414 0Z"></path></svg>
+                </span>
+              </p>
+            </a>
+
 
             <p class="vid-stats">5.5K views &#183; 5 hours ago</p>
           </div>
@@ -198,23 +217,29 @@
 
       <article class="vid-preview">
         <div class="vid-card">
-          <img class="picture" src="picture/hq723.avif" alt="Video Thumbnail">
+          <a href="https://youtu.be/s1hOKosHX6c?si=hWaYbymA878tiMEv" target="_self">
+            <img class="picture" src="picture/hq723.avif" alt="Video Thumbnail">
+          </a>
         </div>
 
         <div class="vid-container">
           <div class="vid-profile">
-            <img class="profile" src="profile/channels7_profile.jpg" alt="ErikTheElectric">
+            <a href="https://youtube.come/@ErikTheElectric" target="_self">
+              <img class="profile" src="profile/channels7_profile.jpg" alt="ErikTheElectric">
+            </a>
           </div>
 
           <div class="vid-info">
             <h3 class="vid-title">Eating EVERY ITEM On The McDonalds Menu!</h3>
-                
-            <p class="vid-owner">
-              ErikTheElectric
-              <span class="badge">
-                <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit; width: 100%; height: 100%;"><path d="M12 1C5.925 1 1 5.925 1 12s4.925 11 11 11 11-4.925 11-11S18.075 1 12 1Zm5.707 7.293a1 1 0 010 1.414L10 17.414l-3.707-3.707a1 1 0 111.414-1.414L10 14.586l6.293-6.293a1 1 0 011.414 0Z"></path></svg>
-              </span>
-            </p>
+            
+            <a href="https://youtube.come/@ErikTheElectric" class="owner" target="_self">
+              <p class="vid-owner">
+                ErikTheElectric
+                <span class="badge">
+                  <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit; width: 100%; height: 100%;"><path d="M12 1C5.925 1 1 5.925 1 12s4.925 11 11 11 11-4.925 11-11S18.075 1 12 1Zm5.707 7.293a1 1 0 010 1.414L10 17.414l-3.707-3.707a1 1 0 111.414-1.414L10 14.586l6.293-6.293a1 1 0 011.414 0Z"></path></svg>
+                </span>
+              </p>
+            </a>
 
             <p class="vid-stats">5.1M views &#183; 5 years ago</p>
           </div>
@@ -233,23 +258,30 @@
 
       <article class="vid-preview">
         <div class="vid-card">
-          <img class="picture" src="picture/hq724.avif" alt="Video Thumbnail">
+          <a href="" target="_self">
+            <img class="picture" src="picture/hq724.avif" alt="Video Thumbnail">
+          </a>
         </div>
 
         <div class="vid-container">
           <div class="vid-profile">
-            <img class="profile" src="profile/channels8_profile.jpg" alt="SpongeBob SquarePants Official">
+            <a href="" target="_self">
+              <img class="profile" src="profile/channels8_profile.jpg" alt="SpongeBob SquarePants Official">
+            </a>
           </div>
 
           <div class="vid-info">
             <h3 class="vid-title">Every Time the Krusty Krab was Remodeled 🔨 | 40 Minute Compilation | SpongeBob</h3>
-                
-            <p class="vid-owner">
-              SpongeBob SquarePants Official
-              <span class="badge">
-                <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit; width: 100%; height: 100%;"><path d="M12 1C5.925 1 1 5.925 1 12s4.925 11 11 11 11-4.925 11-11S18.075 1 12 1Zm5.707 7.293a1 1 0 010 1.414L10 17.414l-3.707-3.707a1 1 0 111.414-1.414L10 14.586l6.293-6.293a1 1 0 011.414 0Z"></path></svg>
-              </span>
-            </p>
+            
+            <a href="" class="owner" target="_self">
+              <p class="vid-owner">
+                SpongeBob SquarePants Official
+                <span class="badge">
+                  <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit; width: 100%; height: 100%;"><path d="M12 1C5.925 1 1 5.925 1 12s4.925 11 11 11 11-4.925 11-11S18.075 1 12 1Zm5.707 7.293a1 1 0 010 1.414L10 17.414l-3.707-3.707a1 1 0 111.414-1.414L10 14.586l6.293-6.293a1 1 0 011.414 0Z"></path></svg>
+                </span>
+              </p>
+            </a>
+
 
             <p class="vid-stats">11M views &#183; 2 years ago</p>
           </div>
@@ -267,24 +299,30 @@
     <!------------------------------------------------------------------------------->
 
       <article class="vid-preview">
-        <div class="vid-card">
-          <img class="picture" src="picture/hq725.avif" alt="Video Thumbnail">
+        <div class="vid-card">]
+          <a href="" target="_self">
+            <img class="picture" src="picture/hq725.avif" alt="Video Thumbnail">
+          </a>
         </div>
 
         <div class="vid-container">
           <div class="vid-profile">
-            <img class="profile" src="profile/channels9_profile.jpg" alt="Nicktoons">
+            <a href="" target="_self">
+              <img class="profile" src="profile/channels9_profile.jpg" alt="Nicktoons">
+            </a>
           </div>
 
           <div class="vid-info">
             <h3 class="vid-title">38 MINUTES of Rock, Paper, & Scissors on the Clock ⏰ | Nicktoons</h3>
                 
-            <p class="vid-owner">
-              Nicktoons
-              <span class="badge">
-                <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit; width: 100%; height: 100%;"><path d="M12 1C5.925 1 1 5.925 1 12s4.925 11 11 11 11-4.925 11-11S18.075 1 12 1Zm5.707 7.293a1 1 0 010 1.414L10 17.414l-3.707-3.707a1 1 0 111.414-1.414L10 14.586l6.293-6.293a1 1 0 011.414 0Z"></path></svg>
-              </span>
-            </p>
+            <a href="" class="owner" target="_self">
+              <p class="vid-owner">
+                Nicktoons
+                <span class="badge">
+                  <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit; width: 100%; height: 100%;"><path d="M12 1C5.925 1 1 5.925 1 12s4.925 11 11 11 11-4.925 11-11S18.075 1 12 1Zm5.707 7.293a1 1 0 010 1.414L10 17.414l-3.707-3.707a1 1 0 111.414-1.414L10 14.586l6.293-6.293a1 1 0 011.414 0Z"></path></svg>
+                </span>
+              </p>
+            </a>
 
             <p class="vid-stats">824K views &#183; 1 years ago</p>
           </div>
@@ -303,23 +341,29 @@
 
       <article class="vid-preview">
         <div class="vid-card">
-          <img class="picture" src="picture/hq726.avif" alt="Video Thumbnail">
+          <a href="" target="_self">
+            <img class="picture" src="picture/hq726.avif" alt="Video Thumbnail">            
+          </a>
         </div>
 
         <div class="vid-container">
           <div class="vid-profile">
-            <img class="profile" src="profile/channels10_profile.jpg" alt="Law&Crime Network">
+            <a href="" target="_self">
+              <img class="profile" src="profile/channels10_profile.jpg" alt="Law&Crime Network">
+            </a>
           </div>
 
           <div class="vid-info">
             <h3 class="vid-title">'Pedophile' Student Had Thousands of Child Porn Images: Cops</h3>
                 
-            <p class="vid-owner">
-              Law&Crime Network
-              <span class="badge">
-                <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit; width: 100%; height: 100%;"><path d="M12 1C5.925 1 1 5.925 1 12s4.925 11 11 11 11-4.925 11-11S18.075 1 12 1Zm5.707 7.293a1 1 0 010 1.414L10 17.414l-3.707-3.707a1 1 0 111.414-1.414L10 14.586l6.293-6.293a1 1 0 011.414 0Z"></path></svg>
-              </span>
-            </p>
+            <a href="" class="owner" target="_self">
+              <p class="vid-owner">
+                Law&Crime Network
+                <span class="badge">
+                  <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit; width: 100%; height: 100%;"><path d="M12 1C5.925 1 1 5.925 1 12s4.925 11 11 11 11-4.925 11-11S18.075 1 12 1Zm5.707 7.293a1 1 0 010 1.414L10 17.414l-3.707-3.707a1 1 0 111.414-1.414L10 14.586l6.293-6.293a1 1 0 011.414 0Z"></path></svg>
+                </span>
+              </p>
+            </a>
 
             <p class="vid-stats">194K views &#183; 2 weeks ago</p>
           </div>
@@ -338,23 +382,29 @@
 
       <article class="vid-preview">
         <div class="vid-card">
-          <img class="picture" src="picture/hq727.avif" alt="Video Thumbnail">
+          <a href="" target="_self">
+            <img class="picture" src="picture/hq727.avif" alt="Video Thumbnail">
+          </a>
         </div>
 
         <div class="vid-container">
           <div class="vid-profile">
-            <img class="profile" src="profile/channels11_profile.jpg" alt="One Direction">
+            <a href="" target="_self">
+              <img class="profile" src="profile/channels11_profile.jpg" alt="One Direction">
+            </a>
           </div>
 
           <div class="vid-info">
             <h3 class="vid-title">One Direction - You and I</h3>
                 
-            <p class="vid-owner">
-              One Direction 
-              <span class="badge">
-                <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit; width: 100%; height: 100%;"><path d="M9.03 2.242 8.272 3H7.2A4.2 4.2 0 003 7.2v1.072l-.758.758a4.2 4.2 0 000 5.94l.758.758V16.8A4.2 4.2 0 007.2 21h1.072l.758.758a4.2 4.2 0 005.94 0l.758-.758H16.8a4.2 4.2 0 004.2-4.2v-1.072l.758-.758a4.2 4.2 0 000-5.94L21 8.272V7.2A4.2 4.2 0 0016.8 3h-1.072l-.758-.758a4.2 4.2 0 00-5.94 0Zm7.73 6.638a.5.5 0 01.241.427v1.743a.256.256 0 01-.386.219L14.001 9.7v4.55a2.75 2.75 0 11-2-2.646V6.888a.5.5 0 01.759-.428l4 2.42Z"></path></svg>
-              </span>
-            </p>
+            <a href="" class="owner" target="_self">
+              <p class="vid-owner">
+                One Direction 
+                <span class="badge">
+                  <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit; width: 100%; height: 100%;"><path d="M9.03 2.242 8.272 3H7.2A4.2 4.2 0 003 7.2v1.072l-.758.758a4.2 4.2 0 000 5.94l.758.758V16.8A4.2 4.2 0 007.2 21h1.072l.758.758a4.2 4.2 0 005.94 0l.758-.758H16.8a4.2 4.2 0 004.2-4.2v-1.072l.758-.758a4.2 4.2 0 000-5.94L21 8.272V7.2A4.2 4.2 0 0016.8 3h-1.072l-.758-.758a4.2 4.2 0 00-5.94 0Zm7.73 6.638a.5.5 0 01.241.427v1.743a.256.256 0 01-.386.219L14.001 9.7v4.55a2.75 2.75 0 11-2-2.646V6.888a.5.5 0 01.759-.428l4 2.42Z"></path></svg>
+                </span>
+              </p>
+            </a>
 
             <p class="vid-stats">662M views &#183; 11 years ago</p>
           </div>
@@ -373,23 +423,29 @@
 
       <article class="vid-preview">
         <div class="vid-card">
-          <img class="picture" src="picture/hq728.avif" alt="Video Thumbnail">
+          <a href="" target="_self">
+            <img class="picture" src="picture/hq728.avif" alt="Video Thumbnail">
+          </a>
         </div>
 
         <div class="vid-container">
           <div class="vid-profile">
-            <img class="profile" src="profile/channels12_profile.jpg" alt="MrBallen">
+            <a href="" target="_self">
+              <img class="profile" src="profile/channels12_profile.jpg" alt="MrBallen">
+            </a>
           </div>
 
           <div class="vid-info">
             <h3 class="vid-title">His song will KILL you...</h3>
                 
-            <p class="vid-owner">
-              MrBallen
-              <span class="badge">
-                <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit; width: 100%; height: 100%;"><path d="M12 1C5.925 1 1 5.925 1 12s4.925 11 11 11 11-4.925 11-11S18.075 1 12 1Zm5.707 7.293a1 1 0 010 1.414L10 17.414l-3.707-3.707a1 1 0 111.414-1.414L10 14.586l6.293-6.293a1 1 0 011.414 0Z"></path></svg>
-              </span>
-            </p>
+            <a href="" class="owner" target="_self">
+              <p class="vid-owner">
+                MrBallen
+                <span class="badge">
+                  <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit; width: 100%; height: 100%;"><path d="M12 1C5.925 1 1 5.925 1 12s4.925 11 11 11 11-4.925 11-11S18.075 1 12 1Zm5.707 7.293a1 1 0 010 1.414L10 17.414l-3.707-3.707a1 1 0 111.414-1.414L10 14.586l6.293-6.293a1 1 0 011.414 0Z"></path></svg>
+                </span>
+              </p>
+            </a>
 
             <p class="vid-stats">910K views &#183; 3 weeks ago</p>
           </div>
@@ -408,20 +464,26 @@
 
       <article class="vid-preview">
         <div class="vid-card">
-          <img class="picture" src="picture/hq729.avif" alt="Video Thumbnail">
+          <a href="" target="_self">
+            <img class="picture" src="picture/hq729.avif" alt="Video Thumbnail">
+          </a>
         </div>
 
         <div class="vid-container">
           <div class="vid-profile">
-            <img class="profile" src="profile/channels13_profile.jpg" alt="EWU Bodycam">
+            <a href="" target="_self">
+              <img class="profile" src="profile/channels13_profile.jpg" alt="EWU Bodycam">
+            </a>
           </div>
 
           <div class="vid-info">
             <h3 class="vid-title">Cops Discover Babysitter Being Eaten Alive in Backyard</h3>
-                
-            <p class="vid-owner">
-              EWU Bodycam
-            </p>
+              
+            <a href="" class="owner" target="_self">
+              <p class="vid-owner">
+                EWU Bodycam
+              </p>
+            </a>
 
             <p class="vid-stats">567K views &#183; 7 hours ago</p>
           </div>
@@ -440,23 +502,29 @@
 
       <article class="vid-preview">
         <div class="vid-card">
-          <img class="picture" src="picture/hq7210.avif" alt="Video Thumbnail">
+          <a href="">
+            <img class="picture" src="picture/hq7210.avif" alt="Video Thumbnail">
+          </a>
         </div>
 
         <div class="vid-container">
           <div class="vid-profile">
-            <img class="profile" src="profile/channels14_profile.jpg" alt="The Plops">
+            <a href="" target="_self">
+              <img class="profile" src="profile/channels14_profile.jpg" alt="The Plops">
+            </a>
           </div>
 
           <div class="vid-info">
             <h3 class="vid-title">3D Prints You'll Use Every Day...</h3>
-                
-            <p class="vid-owner">
-              The Plops
-              <span class="badge">
-                <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit; width: 100%; height: 100%;"><path d="M12 1C5.925 1 1 5.925 1 12s4.925 11 11 11 11-4.925 11-11S18.075 1 12 1Zm5.707 7.293a1 1 0 010 1.414L10 17.414l-3.707-3.707a1 1 0 111.414-1.414L10 14.586l6.293-6.293a1 1 0 011.414 0Z"></path></svg>
-              </span>
-            </p>
+               
+            <a href="" class="owner" target="_self">
+              <p class="vid-owner">
+                The Plops
+                <span class="badge">
+                  <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit; width: 100%; height: 100%;"><path d="M12 1C5.925 1 1 5.925 1 12s4.925 11 11 11 11-4.925 11-11S18.075 1 12 1Zm5.707 7.293a1 1 0 010 1.414L10 17.414l-3.707-3.707a1 1 0 111.414-1.414L10 14.586l6.293-6.293a1 1 0 011.414 0Z"></path></svg>
+                </span>
+              </p>
+            </a>
 
             <p class="vid-stats">665K views &#183; 3 weeks ago</p>
           </div>
@@ -475,23 +543,29 @@
 
       <article class="vid-preview">
         <div class="vid-card">
-          <img class="picture" src="picture/hq7211.avif" alt="Video Thumbnail">
+          <a href="" target="_self">
+            <img class="picture" src="picture/hq7211.avif" alt="Video Thumbnail">
+          </a>
         </div>
 
         <div class="vid-container">
           <div class="vid-profile">
-            <img class="profile" src="profile/channels15_profile.jpg" alt="Andrew Lucier">
+            <a href="" target="_self">
+              <img class="profile" src="profile/channels15_profile.jpg" alt="Andrew Lucier">
+            </a>
           </div>
 
           <div class="vid-info">
             <h3 class="vid-title">Flowers</h3>
-                
-            <p class="vid-owner"> 
-              Andrew Lucier
-              <span class="badge">
-                <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit; width: 100%; height: 100%;"><path d="M9.03 2.242 8.272 3H7.2A4.2 4.2 0 003 7.2v1.072l-.758.758a4.2 4.2 0 000 5.94l.758.758V16.8A4.2 4.2 0 007.2 21h1.072l.758.758a4.2 4.2 0 005.94 0l.758-.758H16.8a4.2 4.2 0 004.2-4.2v-1.072l.758-.758a4.2 4.2 0 000-5.94L21 8.272V7.2A4.2 4.2 0 0016.8 3h-1.072l-.758-.758a4.2 4.2 0 00-5.94 0Zm7.73 6.638a.5.5 0 01.241.427v1.743a.256.256 0 01-.386.219L14.001 9.7v4.55a2.75 2.75 0 11-2-2.646V6.888a.5.5 0 01.759-.428l4 2.42Z"></path></svg>
-              </span>
-            </p>
+              
+            <a href="" class="owner" target="_self">
+              <p class="vid-owner"> 
+                Andrew Lucier
+                <span class="badge">
+                  <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit; width: 100%; height: 100%;"><path d="M9.03 2.242 8.272 3H7.2A4.2 4.2 0 003 7.2v1.072l-.758.758a4.2 4.2 0 000 5.94l.758.758V16.8A4.2 4.2 0 007.2 21h1.072l.758.758a4.2 4.2 0 005.94 0l.758-.758H16.8a4.2 4.2 0 004.2-4.2v-1.072l.758-.758a4.2 4.2 0 000-5.94L21 8.272V7.2A4.2 4.2 0 0016.8 3h-1.072l-.758-.758a4.2 4.2 0 00-5.94 0Zm7.73 6.638a.5.5 0 01.241.427v1.743a.256.256 0 01-.386.219L14.001 9.7v4.55a2.75 2.75 0 11-2-2.646V6.888a.5.5 0 01.759-.428l4 2.42Z"></path></svg>
+                </span>
+              </p>
+            </a>
 
             <p class="vid-stats">149K views &#183; 6 months ago</p>
           </div>
@@ -505,6 +579,6 @@
           </button>
         </div>
       </article>
-  </section>
+    </main>
 </body>
 </html>
